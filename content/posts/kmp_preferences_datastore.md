@@ -1,10 +1,17 @@
 ---
-title: "Setting up DataStore on KMP"
+author: ["Thomas Kioko"]
+title: "Setting up DataStore on KMM"
 date: "2022-12-15"
-draft: false
-hideToc: false
+summary: "In this article, well, take a look at how to DataStore and how to use it in a Kotlin Multiplatform project."
 tags: ["KMP", "datastore"]
+categories: ["kmp"]
 series: ["Tv Maniac Journey"]
+cover:
+    image: "https://www.thomaskioko.com/wp-content/uploads/2022/12/DataStore-1000x625.png" # image path/url
+    alt: "<alt text>" # alt text
+    caption: "" # display caption under cover
+    relative: false # when using page bundles set this to true
+    hidden: true # only hide on current single page
 ---
 
 In this article, well, take a look at how to DataStore and how to use it in a Kotlin Multiplatform project.

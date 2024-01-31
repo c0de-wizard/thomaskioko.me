@@ -1,14 +1,17 @@
 ---
+author: ["Thomas Kioko"]
 title: "Going Modular — The Kotlin Multiplatform Way"
 date: "2022-01-19"
-draft: false
-hideToc: false
+summary: "There's no silver bullet on which architecture to use in your project. This article talks about my journey modularising a project I've been working on."
 tags: ["KMP", "modularization", "architecture"]
+categories: ["kmp"]
 series: ["Tv Maniac Journey"]
+cover:
+    image: "https://cdn-images-1.medium.com/max/800/0*NExDJVvg0K4-Pifg.jpeg" # image path/url
+    relative: false # when using page bundles set this to true
+    hidden: true # only hide on current single page
 ---
 
-
-![](https://cdn-images-1.medium.com/max/800/0*NExDJVvg0K4-Pifg.jpeg)
 
 I recently decided to dive into the Kotlin Multiplatform world. So far, so good. This article talks about my journey modularising a project I've been working on.
 

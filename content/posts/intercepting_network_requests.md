@@ -1,13 +1,18 @@
 ---
+author: ["Thomas Kioko"]
 title: "Intercepting Ktor Network Responses in Kotlin Multiplatform"
 date: "2023-07-25"
-draft: false
-hideToc: false
-tags: ["KMP", "ktor"]
+summary: "Handling various HTTP response codes is crucial when building mobile applications that communicate with APIs. This article will explore how to use Ktor’s `HttpResponseValidator` to intercept and handle responses in mobile applications."
+tags: ["KMP", "modularization", "architecture"]
+categories: ["kmp"]
 series: ["Tv Maniac Journey"]
+cover:
+    image: "https://images.unsplash.com/photo-1566443280617-35db331c54fb?q=80&w=1374&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D" # image path/url
+    alt: "https://unsplash.com/photos/assorted-color-yard-threads-MOO6k3RaiwE" # alt text
+    caption: "Photo by Omar Flores on Unsplash"
+    relative: false # when using page bundles set this to true
+    hidden: true # only hide on current single page
 ---
-
-![Photo by Omar Flores on Unsplash](https://miro.medium.com/v2/resize:fit:1100/format:webp/1*2d0w3iXK1ATLsCtQXFSOOQ.jpeg)
 
 ### **Introduction:**
 

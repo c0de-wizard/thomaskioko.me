@@ -1,15 +1,20 @@
 ---
+author: ["Thomas Kioko"]
 title: "KMP Environment Variables: Part 1"
-date: 2023-07-10
-draft: false
-hideToc: false
+date: "2023-05-13"
+summary: "In this article, I will talk about my experience working with environment variables on Kmp (Kotlin Multiplatform) and how I am currently using it in my project."
 tags: ["KMP"]
+categories: ["kmp"]
 series: ["Tv Maniac Journey"]
+cover:
+    image: "https://www.thomaskioko.com/wp-content/uploads/2023/05/Environment-Variables-1000x564.jpeg" # image path/url
+    alt: "<alt text>" # alt text
+    caption: "Photo by Scott Webb" # display caption under cover
+    relative: false # when using page bundles set this to true
+    hidden: false # only hide on current single page
 ---
 
-![Photo by Scott Webb](https://www.thomaskioko.com/wp-content/uploads/2023/05/Environment-Variables-1000x564.jpeg)
-
-In this article, I will talk about my experience working with environment variables on Kmm (Kotlin Multiplatform) and how I am currently using it in my project [Tv-Maniac.](https://github.com/thomaskioko/tv-maniac)
+In this article, I will talk about my experience working with environment variables on Kmp (Kotlin Multiplatform) and how I am currently using it in my project.[Tv-Maniac.](https://github.com/thomaskioko/tv-maniac)
 
 ### Environment Variables
 During the development lifecycle of a mobile app, you probably may be create apps that use API keys or passwords. It is best practise to store such sensitive info in a secure place. In Android, you'd ideally use `local.properties` or `gradle.properties` to set this up and on iOS, configuration files commonly known as `xcconfig`. The good thing about this is you can configure it to support multiple builds/targets: eg, `development`, `QA` and `production` depending on your needs.
